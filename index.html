@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SNEHA SUDHA BEHERA | Editorial AI &amp; Engineering Portfolio</title>
+  <meta name="description" content="Personal portfolio of Sneha Sudha Behera - AI/ML Engineer, IoT & Embedded Systems Developer, and Computer Vision Developer exploring Wi-Fi CSI sensing and intelligent systems.">
+  
+  <!-- Editorial Typography: Playfair Display (Serif), Plus Jakarta Sans (Body), JetBrains Mono (Tech) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Signal Traces & Subtle Vector Accents -->
+  <div class="ambient-decor" aria-hidden="true">
+    <svg class="decor-svg" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M-100 150 Q 300 50 700 220 T 1500 120" stroke="rgba(185, 98, 61, 0.07)" stroke-width="1.5" fill="none"/>
+      <path d="M-50 450 Q 400 600 850 380 T 1600 500" stroke="rgba(38, 55, 46, 0.06)" stroke-width="1.5" stroke-dasharray="6 6" fill="none"/>
+      <circle cx="150" cy="250" r="180" fill="rgba(214, 154, 145, 0.04)" filter="blur(60px)"/>
+      <circle cx="1250" cy="650" r="220" fill="rgba(101, 112, 94, 0.05)" filter="blur(70px)"/>
+    </svg>
+  </div>
+
+  <!-- MINIMAL EDITORIAL NAVBAR -->
+  <header class="editorial-nav" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-name">SNEHA SUDHA BEHERA</span>
+      </a>
+
+      <nav class="nav-links-wrapper" id="nav-menu">
+        <a href="#work" class="nav-link-item">WORK</a>
+        <a href="#about" class="nav-link-item">ABOUT</a>
+        <a href="#signal-tech" class="nav-link-item">PIPELINE</a>
+        <a href="#research" class="nav-link-item">RESEARCH</a>
+        <a href="#experience" class="nav-link-item">EXPERIENCE</a>
+        <a href="#skills" class="nav-link-item">SKILLS</a>
+        <a href="#contact" class="nav-link-item">CONTACT</a>
+      </nav>
+
+      <div class="nav-right">
+        <button class="resume-cta-btn" id="open-resume-btn">
+          <span>RESUME</span>
+          <span class="arrow">→</span>
+        </button>
+        <button class="hamburger-btn" id="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- FULL-WIDTH EDITORIAL HERO SECTION -->
+    <section class="hero-editorial-section" id="hero">
+      <div class="hero-inner-container">
+        
+        <!-- Hero Left Column: Editorial Typography & Brand Statement -->
+        <div class="hero-content-left">
+          <div class="meta-label-top">
+            <span class="label-dot"></span>
+            COMPUTER SCIENCE • AI/ML • IoT • RESEARCH
+          </div>
+
+          <div class="oversized-name">
+            <span class="name-line">SNEHA</span>
+            <span class="name-line">SUDHA</span>
+            <span class="name-line highlight-serif-line">BEHERA</span>
+          </div>
+
+          <div class="hero-subtitle-mono">
+            AI / ML · IoT · COMPUTER VISION
+          </div>
+
+          <h1 class="hero-statement">
+            Building intelligent systems that connect <span class="emphasized-word">signals</span>, software &amp; the real world.
+          </h1>
+
+          <p class="hero-tagline-quote">
+            “From wireless signals to intelligent applications.”
+          </p>
+
+          <div class="hero-actions">
+            <a href="#work" class="btn-editorial-primary">
+              <span>EXPLORE SELECTED WORK</span>
+              <span class="btn-arrow">↓</span>
+            </a>
+            <a href="#contact" class="btn-editorial-outline">GET IN TOUCH</a>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Organic Overlapping Editorial Portrait -->
+        <div class="hero-portrait-right">
+          <div class="editorial-frame-container">
+            <!-- Background Decorative Tech Vectors -->
+            <svg class="portrait-background-shapes" viewBox="0 0 450 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M 40 60 Q 225 10 410 60 T 225 480" stroke="rgba(185, 98, 61, 0.3)" stroke-width="1.5" stroke-dasharray="5 5"/>
+              <circle cx="225" cy="260" r="210" stroke="rgba(38, 55, 46, 0.15)" stroke-width="1"/>
+              <circle cx="225" cy="260" r="225" stroke="rgba(101, 112, 94, 0.2)" stroke-width="1" stroke-dasharray="8 8"/>
+            </svg>
+
+            <!-- Organic Curved Portrait Container -->
+            <div class="organic-portrait-shape">
+              <img src="profile.png" alt="Sneha Sudha Behera portrait" class="editorial-portrait-img">
+              <div class="organic-overlay-border"></div>
+            </div>
+
+            <!-- Floating Monospace Tech Badges around portrait -->
+            <div class="tech-badge-float float-pos-1">
+              <span class="badge-code">WI-FI CSI</span>
+            </div>
+            <div class="tech-badge-float float-pos-2">
+              <span class="badge-code">AI / ML</span>
+            </div>
+            <div class="tech-badge-float float-pos-3">
+              <span class="badge-code">ESP32</span>
+            </div>
+            <div class="tech-badge-float float-pos-4">
+              <span class="badge-code">COMPUTER VISION</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Hero Bottom Index Strip -->
+      <div class="hero-index-strip">
+        <div class="index-strip-container">
+          <div class="strip-item"><span class="strip-num">01</span><span class="strip-txt">AI / ML</span></div>
+          <div class="strip-item"><span class="strip-num">02</span><span class="strip-txt">WIRELESS SENSING</span></div>
+          <div class="strip-item"><span class="strip-num">03</span><span class="strip-txt">IoT</span></div>
+          <div class="strip-item"><span class="strip-num">04</span><span class="strip-txt">COMPUTER VISION</span></div>
+          <div class="strip-item"><span class="strip-num">05</span><span class="strip-txt">EMBEDDED SYSTEMS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ASYMMETRIC ABOUT SECTION -->
+    <section class="editorial-section about-editorial" id="about">
+      <div class="editorial-container">
+        <div class="about-asymmetric-layout">
+          
+          <div class="about-left-col">
+            <span class="editorial-sub-num">01 / ABOUT</span>
+            <h2 class="about-serif-title">
+              Curious about how technology interacts with the real world.
+            </h2>
+          </div>
+
+          <div class="about-right-col">
+            <p class="about-lead-paragraph">
+              <strong>Sneha Sudha Behera</strong> is a final-year Computer Science &amp; Engineering student at Biju Patnaik University of Technology (BPUT), Rourkela, working across machine learning, computer vision, IoT, and embedded systems.
+            </p>
+            <p class="about-secondary-paragraph">
+              Her projects explore practical applications of wireless sensing, intelligent monitoring, and full-stack software systems — ranging from defense-oriented Wi-Fi CSI sensing at DRDO to solar panel predictive telemetry and hospital management infrastructure.
+            </p>
+
+            <!-- Technical Matrix Grid with Thin Lines -->
+            <div class="technical-matrix-box">
+              <div class="matrix-title">CORE DOMAIN MATRIX</div>
+              <div class="matrix-grid">
+                <div class="matrix-cell"><span class="m-code">01</span> AI / ML</div>
+                <div class="matrix-cell"><span class="m-code">02</span> COMPUTER VISION</div>
+                <div class="matrix-cell"><span class="m-code">03</span> IoT</div>
+                <div class="matrix-cell"><span class="m-code">04</span> EMBEDDED</div>
+                <div class="matrix-cell"><span class="m-code">05</span> WIRELESS SENSING</div>
+                <div class="matrix-cell"><span class="m-code">06</span> SOFTWARE</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SIGNATURE TECH SECTION (DEEP OLIVE CONTRAST) -->
+    <section class="signature-tech-section" id="signal-tech">
+      <div class="editorial-container">
+        <div class="signature-header">
+          <span class="tech-tag-dark">TECHNICAL PIPELINE</span>
+          <h2 class="signature-title">From signals to intelligence.</h2>
+          <p class="signature-desc">
+            Exploring how wireless signals, embedded systems, and machine intelligence can work together to understand real-world environments without relying on traditional optical cameras.
+          </p>
+        </div>
+
+        <!-- Huge CSS-generated Wi-Fi Waveform & Signal Canvas -->
+        <div class="waveform-display-card">
+          <div class="wf-top-bar">
+            <span class="wf-mono-title">CSI SUB-CARRIER AMPLITUDE &amp; PHASE SPECTRUM</span>
+            <span class="wf-status-active"><span class="live-dot"></span> SENSING ENGINE ACTIVE</span>
+          </div>
+
+          <div class="wf-svg-container">
+            <svg class="waveform-svg" viewBox="0 0 1000 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Grid lines -->
+              <line x1="0" y1="40" x2="1000" y2="40" stroke="rgba(245, 239, 228, 0.08)" stroke-width="1"/>
+              <line x1="0" y1="90" x2="1000" y2="90" stroke="rgba(245, 239, 228, 0.12)" stroke-width="1"/>
+              <line x1="0" y1="140" x2="1000" y2="140" stroke="rgba(245, 239, 228, 0.08)" stroke-width="1"/>
+              
+              <!-- Sub-carrier wave curves -->
+              <path class="animated-wave-1" d="M0,90 Q125,20 250,90 T500,90 T750,90 T1000,90" stroke="#B9623D" stroke-width="2.5" fill="none"/>
+              <path class="animated-wave-2" d="M0,90 Q125,150 250,90 T500,90 T750,90 T1000,90" stroke="#65705E" stroke-width="1.8" stroke-dasharray="4 4" fill="none"/>
+              <path class="animated-wave-3" d="M0,90 Q125,45 250,115 T500,65 T750,125 T1000,90" stroke="#D69A91" stroke-width="1.5" fill="none"/>
+            </svg>
+          </div>
+
+          <!-- Pipeline Flow Stepper -->
+          <div class="signal-pipeline-flow">
+            <div class="p-step">
+              <span class="p-num">01</span>
+              <span class="p-txt">WI-FI SIGNAL</span>
+            </div>
+            <div class="p-arrow">↓</div>
+            <div class="p-step">
+              <span class="p-num">02</span>
+              <span class="p-txt">CSI DATA</span>
+            </div>
+            <div class="p-arrow">↓</div>
+            <div class="p-step">
+              <span class="p-num">03</span>
+              <span class="p-txt">SIGNAL PROCESSING</span>
+            </div>
+            <div class="p-arrow">↓</div>
+            <div class="p-step">
+              <span class="p-num">04</span>
+              <span class="p-txt">INTELLIGENCE</span>
+            </div>
+            <div class="p-arrow">↓</div>
+            <div class="p-step p-highlight">
+              <span class="p-num">05</span>
+              <span class="p-txt">REAL-WORLD ACTION</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SELECTED WORK / FEATURED ENGINEERING PROJECTS -->
+    <section class="editorial-section work-editorial" id="work">
+      <div class="editorial-container">
+        <div class="work-section-header">
+          <div class="header-left">
+            <span class="editorial-sub-num">02 / PORTFOLIO</span>
+            <h2 class="editorial-title-large">Selected Work</h2>
+          </div>
+          <div class="header-right">
+            <p class="work-sub-text">Three systems. Three different engineering problems.</p>
+          </div>
+        </div>
+
+        <div class="editorial-projects-list">
+          
+          <!-- PROJECT 01 — EAGLE Δ (LARGE SPLIT COMPOSITION) -->
+          <article class="project-editorial-block project-split">
+            <div class="project-split-left">
+              <div class="giant-project-num">01</div>
+              <div class="project-category-tag">WIRELESS SENSING / AI / IoT</div>
+              <h3 class="project-headline-title">EAGLE Δ — Contactless Indoor Sensing via Wi-Fi CSI</h3>
+              
+              <p class="project-concise-desc">
+                Camera-free, privacy-preserving indoor sensing application using ESP32 Wi-Fi Channel State Information to detect human presence and motion without optical surveillance.
+              </p>
+
+              <div class="project-highlights-box">
+                <h4>TECHNICAL HIGHLIGHTS:</h4>
+                <ul>
+                  <li>Extracted sub-carrier CSI packets directly from ESP32 transceivers.</li>
+                  <li>Programmed firmware in ESP-IDF &amp; C/C++ for precise temporal capture.</li>
+                  <li>Applied offline Python signal analytics &amp; noise filtering algorithms.</li>
+                  <li>Persisted contactless motion event telemetry locally in SQLite storage.</li>
+                </ul>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="p-tag">ESP32</span>
+                <span class="p-tag">ESP-IDF</span>
+                <span class="p-tag">Python</span>
+                <span class="p-tag">Signal Processing</span>
+                <span class="p-tag">SQLite</span>
+              </div>
+
+              <div class="project-outcome-banner">
+                <strong>Outcome:</strong> Developed a cloud-independent indoor sensing and offline signal analytics pipeline for privacy-sensitive environments.
+              </div>
+
+              <a href="https://github.com/Sneha1623/EAGLE-CSI" target="_blank" rel="noopener noreferrer" class="btn-project-github">
+                <span>github.com/Sneha1623/EAGLE-CSI</span>
+                <span class="link-arrow">→</span>
+              </a>
+            </div>
+
+            <div class="project-split-right">
+              <div class="project-graphic-card">
+                <div class="graphic-card-header">
+                  <span>SYSTEM ARCHITECTURE &amp; SIGNAL FLOW</span>
+                </div>
+                
+                <div class="project-diagram-stack">
+                  <div class="diagram-cell">
+                    <span class="cell-title">ESP32 Transceiver</span>
+                    <span class="cell-sub">Raw Packet Stream</span>
+                  </div>
+                  <div class="diagram-connector">↓</div>
+                  <div class="diagram-cell">
+                    <span class="cell-title">Wi-Fi CSI</span>
+                    <span class="cell-sub">56 Sub-carriers Amplitude &amp; Phase</span>
+                  </div>
+                  <div class="diagram-connector">↓</div>
+                  <div class="diagram-cell highlight-cell">
+                    <span class="cell-title">Signal Processing</span>
+                    <span class="cell-sub">Variance &amp; High-Pass Filtering</span>
+                  </div>
+                  <div class="diagram-connector">↓</div>
+                  <div class="diagram-cell">
+                    <span class="cell-title">Human Presence / Motion</span>
+                    <span class="cell-sub">Presence Classifier</span>
+                  </div>
+                  <div class="diagram-connector">↓</div>
+                  <div class="diagram-cell">
+                    <span class="cell-title">SQLite Database</span>
+                    <span class="cell-sub">Local Event Persistence</span>
+                  </div>
+                </div>
+
+                <!-- Signal Waveform Graphic -->
+                <div class="mini-csi-visual">
+                  <div class="mini-wf-head">Sub-carrier Variance Waveform</div>
+                  <svg class="mini-wf-svg" viewBox="0 0 300 60">
+                    <path d="M0,30 Q37.5,5 75,35 T150,20 T225,45 T300,30" fill="none" stroke="#B9623D" stroke-width="2"/>
+                    <path d="M0,30 Q37.5,45 75,15 T150,40 T225,15 T300,30" fill="none" stroke="#65705E" stroke-width="1.5" stroke-dasharray="3 3"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 02 — SOURYANOVA (WIDE HORIZONTAL COMPOSITION) -->
+          <article class="project-editorial-block project-horizontal">
+            <div class="horizontal-header-strip">
+              <div class="giant-project-num">02</div>
+              <div class="horizontal-title-group">
+                <div class="project-category-tag">IoT • AI • ENERGY TELEMETRY</div>
+                <h3 class="project-headline-title">SouryaNova — AI-Powered Solar Energy Monitoring Platform</h3>
+              </div>
+            </div>
+
+            <div class="horizontal-body-grid">
+              <div class="horizontal-left">
+                <p class="project-concise-desc">
+                  An end-to-end IoT platform monitoring solar-panel voltage output, solar irradiance, temperature, and dust accumulation, integrated with predictive AI models for automated maintenance alerts.
+                </p>
+
+                <div class="project-tech-tags">
+                  <span class="p-tag">ESP32</span>
+                  <span class="p-tag">MQTT</span>
+                  <span class="p-tag">Node.js</span>
+                  <span class="p-tag">Python</span>
+                  <span class="p-tag">SQL</span>
+                  <span class="p-tag">Predictive AI</span>
+                </div>
+
+                <div class="project-outcome-banner">
+                  <strong>Outcome:</strong> Connected real-time telemetry with predictive analysis for identifying potential performance drop-offs before hardware failure.
+                </div>
+
+                <a href="https://github.com/Sneha1623/SouryaNova" target="_blank" rel="noopener noreferrer" class="btn-project-github">
+                  <span>github.com/Sneha1623/SouryaNova</span>
+                  <span class="link-arrow">→</span>
+                </a>
+              </div>
+
+              <div class="horizontal-right">
+                <div class="solar-diagram-box">
+                  <div class="solar-flow-horizontal">
+                    <span class="s-node">SOLAR INPUT</span>
+                    <span class="s-arr">→</span>
+                    <span class="s-node">SENSOR DATA</span>
+                    <span class="s-arr">→</span>
+                    <span class="s-node">MQTT BROKER</span>
+                    <span class="s-arr">→</span>
+                    <span class="s-node">NODE.JS API</span>
+                    <span class="s-arr">→</span>
+                    <span class="s-node highlight-node">PREDICTIVE AI</span>
+                    <span class="s-arr">→</span>
+                    <span class="s-node">ALERT</span>
+                  </div>
+
+                  <div class="solar-stats-preview">
+                    <div class="s-stat-bar">
+                      <span>Irradiance: 850 W/m²</span>
+                      <div class="bar-bg"><div class="bar-fill" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="s-stat-bar">
+                      <span>Dust Index: High</span>
+                      <div class="bar-bg"><div class="bar-fill warm" style="width: 72%;"></div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 03 — MEDITECH (STRUCTURED DATABASE COMPOSITION) -->
+          <article class="project-editorial-block project-structured">
+            <div class="structured-header">
+              <div class="giant-project-num">03</div>
+              <div class="structured-titles">
+                <div class="project-category-tag">WEB • DATABASE • HEALTHCARE</div>
+                <h3 class="project-headline-title">MediTech — Centralized Hospital Information Platform</h3>
+              </div>
+            </div>
+
+            <div class="structured-body-grid">
+              <div class="structured-info">
+                <p class="project-desc">
+                  Centralized multi-hospital platform designed for tracking bed availability, blood-bank stocks, and specialist doctor availability through relational SQL database modeling and a responsive web interface.
+                </p>
+
+                <div class="project-tech-tags">
+                  <span class="p-tag">HTML5</span>
+                  <span class="p-tag">CSS3</span>
+                  <span class="p-tag">JavaScript</span>
+                  <span class="p-tag">Bootstrap</span>
+                  <span class="p-tag">SQL</span>
+                </div>
+
+                <div class="project-outcome-banner">
+                  <strong>Outcome:</strong> Improved visibility of healthcare resources through centralized relational information management across multiple hospital facilities.
+                </div>
+
+                <a href="https://github.com/Sneha1623/MediTech" target="_blank" rel="noopener noreferrer" class="btn-project-github">
+                  <span>github.com/Sneha1623/MediTech</span>
+                  <span class="link-arrow">→</span>
+                </a>
+              </div>
+
+              <div class="structured-diagram-container">
+                <div class="db-flow-visual">
+                  <div class="db-flow-node">HOSPITAL DATA</div>
+                  <div class="db-flow-arrow">↓</div>
+                  <div class="db-flow-node highlight-db">SQL DATABASE SCHEMA</div>
+                  <div class="db-flow-arrow">↓</div>
+                  <div class="db-flow-row">
+                    <span class="sub-db-pill">BEDS</span>
+                    <span class="sub-db-pill">BLOOD BANK</span>
+                    <span class="sub-db-pill">SPECIALISTS</span>
+                  </div>
+                  <div class="db-flow-arrow">↓</div>
+                  <div class="db-flow-node">RESPONSIVE WEB INTERFACE</div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH SECTION (DARK FULL-WIDTH CONTRAST) -->
+    <section class="research-dark-section" id="research">
+      <div class="editorial-container">
+        <div class="research-content-grid">
+          
+          <div class="research-text-left">
+            <span class="research-badge-mono">DEFENSE RESEARCH &amp; INNOVATION</span>
+            <h2 class="research-serif-headline">WHAT CAMERAS CAN'T SEE.</h2>
+            <h3 class="research-sub-headline">Contactless sensing through Wi-Fi Channel State Information.</h3>
+            
+            <p class="research-body-text">
+              Working at the intersection of wireless signals, embedded systems, and intelligent sensing to evaluate environmental perturbations without optics.
+            </p>
+
+            <div class="research-pill-group">
+              <span class="r-pill">CAMERA-FREE</span>
+              <span class="r-pill">PRIVACY-PRESERVING</span>
+              <span class="r-pill">OFFLINE PROCESSING</span>
+            </div>
+
+            <p class="research-statement-quote">
+              “Working at the intersection of wireless signals, embedded systems and intelligent sensing.”
+            </p>
+          </div>
+
+          <!-- Animated Interactive CSI Waveform Simulator Canvas -->
+          <div class="research-canvas-right">
+            <div class="sim-frame-card">
+              <div class="sim-card-header">
+                <span>WI-FI CSI SIGNAL SIMULATOR</span>
+                <button class="sim-toggle-btn" id="toggle-sim-btn">Toggle Motion State</button>
+              </div>
+
+              <div class="sim-canvas-box">
+                <canvas id="csiWaveCanvas" width="480" height="170"></canvas>
+              </div>
+
+              <div class="sim-flow-chain-dark">
+                <span>ESP32</span> → <span>WI-FI</span> → <span>CSI</span> → <span>SIGNAL PROC.</span> → <span id="sim-status-label" class="active-status">HUMAN PRESENCE DETECTED</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDITORIAL EXPERIENCE TIMELINE -->
+    <section class="editorial-section experience-editorial" id="experience">
+      <div class="editorial-container">
+        <div class="section-label-group">
+          <span class="editorial-sub-num">03 / CAREER</span>
+          <h2 class="editorial-title-large">Experience</h2>
+        </div>
+
+        <div class="editorial-timeline">
+          
+          <!-- EXPERIENCE ENTRY 01: DRDO PXE -->
+          <div class="timeline-row highlight-row">
+            <div class="timeline-year-col">
+              <span class="year-num">2026</span>
+              <span class="year-period">JUNE – JULY</span>
+            </div>
+            
+            <div class="timeline-detail-col">
+              <div class="exp-header-group">
+                <h3 class="exp-org-name">PXE — PROOF &amp; EXPERIMENTAL ESTABLISHMENT (DRDO)</h3>
+                <span class="exp-role-badge">RESEARCH INTERN</span>
+              </div>
+              <div class="exp-location-tag">Balasore, Odisha</div>
+
+              <p class="exp-lead-text">
+                Contributed to defense-oriented research on contactless Wi-Fi CSI sensing using ESP32 and ESP-IDF under the guidance of senior DRDO scientists.
+              </p>
+
+              <div class="exp-tech-highlights-strip">
+                <span class="exp-h-tag">HARDWARE</span>
+                <span class="exp-h-tag">CSI</span>
+                <span class="exp-h-tag">ESP-IDF</span>
+                <span class="exp-h-tag">SQLITE</span>
+                <span class="exp-h-tag">OFFLINE PROCESSING</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- OVERSIZED SERIF STATEMENT BETWEEN EXPERIENCE ENTRIES -->
+          <div class="experience-interlude-card">
+            <h3 class="interlude-serif-quote">“From learning AI to engineering real systems.”</h3>
+          </div>
+
+          <!-- EXPERIENCE ENTRY 02: SAIL -->
+          <div class="timeline-row">
+            <div class="timeline-year-col">
+              <span class="year-num">2026</span>
+              <span class="year-period">MAY – JUNE</span>
+            </div>
+            
+            <div class="timeline-detail-col">
+              <div class="exp-header-group">
+                <h3 class="exp-org-name">SAIL — ROURKELA STEEL PLANT</h3>
+                <span class="exp-role-badge">INDUSTRIAL INTERN</span>
+              </div>
+              <div class="exp-location-tag">Rourkela, Odisha</div>
+
+              <p class="exp-lead-text">
+                Gained operational exposure to heavy steel plant telemetry, process control systems, and industrial safety protocols.
+              </p>
+
+              <div class="exp-tech-highlights-strip">
+                <span class="exp-h-tag">INDUSTRIAL AUTOMATION</span>
+                <span class="exp-h-tag">PROCESS CONTROL</span>
+                <span class="exp-h-tag">TELEMETRY</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- EXPERIENCE ENTRY 03: CTTC -->
+          <div class="timeline-row">
+            <div class="timeline-year-col">
+              <span class="year-num">2025</span>
+              <span class="year-period">JUNE – JULY</span>
+            </div>
+            
+            <div class="timeline-detail-col">
+              <div class="exp-header-group">
+                <h3 class="exp-org-name">CENTRAL TOOL ROOM &amp; TRAINING CENTRE (CTTC)</h3>
+                <span class="exp-role-badge">AI / ML INTERN</span>
+              </div>
+              <div class="exp-location-tag">Bhubaneswar, Odisha</div>
+
+              <p class="exp-lead-text">
+                Practical training in Machine Learning, Deep Learning with Keras, Computer Vision, and Natural Language Processing. Built Face Recognition Attendance System capstone project.
+              </p>
+
+              <div class="exp-tech-highlights-strip">
+                <span class="exp-h-tag">MACHINE LEARNING</span>
+                <span class="exp-h-tag">DEEP LEARNING</span>
+                <span class="exp-h-tag">COMPUTER VISION</span>
+                <span class="exp-h-tag">NLP</span>
+              </div>
+
+              <div class="capstone-verified-pill">
+                <span class="cap-lbl">CAPSTONE ACCURACY:</span> 92% recognition accuracy on test datasets for Face Recognition Attendance System.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDITORIAL SKILLS (4 ELEGANT COLUMNS) -->
+    <section class="editorial-section skills-editorial" id="skills">
+      <div class="editorial-container">
+        <div class="section-label-group">
+          <span class="editorial-sub-num">04 / STACK</span>
+          <h2 class="editorial-title-large">Tools &amp; Technologies</h2>
+        </div>
+
+        <div class="skills-four-columns">
+          
+          <div class="skill-column">
+            <div class="col-num">01</div>
+            <h3 class="col-title">PROGRAMMING</h3>
+            <ul class="col-skill-list">
+              <li>C</li>
+              <li>C++</li>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+
+          <div class="skill-column">
+            <div class="col-num">02</div>
+            <h3 class="col-title">AI / VISION</h3>
+            <ul class="col-skill-list">
+              <li>Machine Learning</li>
+              <li>Deep Learning</li>
+              <li>Keras</li>
+              <li>Computer Vision</li>
+              <li>NLP</li>
+            </ul>
+          </div>
+
+          <div class="skill-column">
+            <div class="col-num">03</div>
+            <h3 class="col-title">IoT / EMBEDDED</h3>
+            <ul class="col-skill-list">
+              <li>ESP32</li>
+              <li>ESP-IDF</li>
+              <li>Wi-Fi CSI</li>
+              <li>MQTT</li>
+              <li>SQLite</li>
+              <li>Wokwi</li>
+            </ul>
+          </div>
+
+          <div class="skill-column">
+            <div class="col-num">04</div>
+            <h3 class="col-title">WEB</h3>
+            <ul class="col-skill-list">
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>Bootstrap</li>
+              <li>Express.js</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- THE JOURNEY SO FAR (SINGLE ELEGANT HORIZONTAL LINE) -->
+    <section class="editorial-section journey-editorial">
+      <div class="editorial-container">
+        <div class="journey-header">
+          <span class="editorial-sub-num">05 / TRAJECTORY</span>
+          <h2 class="editorial-title-large">THE JOURNEY SO FAR</h2>
+        </div>
+
+        <div class="journey-horizontal-line-wrapper">
+          <div class="journey-track-line"></div>
+          <div class="journey-nodes-grid">
+            
+            <div class="j-node-item">
+              <div class="j-node-dot"></div>
+              <div class="j-node-year">2023</div>
+              <div class="j-node-label">B.Tech CSE</div>
+            </div>
+
+            <div class="j-node-item">
+              <div class="j-node-dot"></div>
+              <div class="j-node-year">2025</div>
+              <div class="j-node-label">AI / ML + Vision</div>
+            </div>
+
+            <div class="j-node-item">
+              <div class="j-node-dot"></div>
+              <div class="j-node-year">2026</div>
+              <div class="j-node-label">Industrial Systems</div>
+            </div>
+
+            <div class="j-node-item highlight-j-node">
+              <div class="j-node-dot"></div>
+              <div class="j-node-year">2026</div>
+              <div class="j-node-label">Wi-Fi CSI Research</div>
+            </div>
+
+            <div class="j-node-item">
+              <div class="j-node-dot"></div>
+              <div class="j-node-year">2026</div>
+              <div class="j-node-label">Hackathons</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RECOGNITION & ACHIEVEMENTS (COMPACT VISUAL NUMBERS) -->
+    <section class="editorial-section recognition-editorial">
+      <div class="editorial-container">
+        <div class="section-label-group">
+          <span class="editorial-sub-num">06 / MILESTONES</span>
+          <h2 class="editorial-title-large">Recognition</h2>
+        </div>
+
+        <div class="recognition-numbers-grid">
+          
+          <div class="rec-card">
+            <div class="rec-big-num">92%</div>
+            <div class="rec-title">Face Recognition Accuracy</div>
+            <div class="rec-sub">CTTC Capstone Attendance System (Test Datasets)</div>
+          </div>
+
+          <div class="rec-card">
+            <div class="rec-big-num">2026</div>
+            <div class="rec-title">Trithon Finalist</div>
+            <div class="rec-sub">Shortlisted Finalist in Multi-Stage Hackathon</div>
+          </div>
+
+          <div class="rec-card">
+            <div class="rec-big-num">3rd</div>
+            <div class="rec-title">BPUT Parvam 2026</div>
+            <div class="rec-sub">Secured 3rd Place in Flagship University Technical Fest</div>
+          </div>
+
+          <div class="rec-card">
+            <div class="rec-big-num">AWS</div>
+            <div class="rec-title">AI for Bharat Hackathon</div>
+            <div class="rec-sub">Qualified Generative AI Prototype Submission on AWS</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDITORIAL CONTACT SECTION -->
+    <section class="editorial-section contact-editorial" id="contact">
+      <div class="editorial-container">
+        <div class="contact-box-wrapper">
+          <span class="editorial-sub-num">07 / CONTACT</span>
+          <h2 class="contact-serif-headline">Let’s build something intelligent.</h2>
+          <p class="contact-mono-subtitle">AI • COMPUTER VISION • IoT • EMBEDDED • WIRELESS SENSING</p>
+
+          <div class="contact-blocks-grid">
+            
+            <a href="mailto:snehasudha97777@gmail.com" class="contact-block-item">
+              <span class="cb-label">EMAIL</span>
+              <span class="cb-val">snehasudha97777@gmail.com</span>
+              <span class="cb-arrow">→</span>
+            </a>
+
+            <a href="https://linkedin.com/in/sneha-sudha-behera" target="_blank" rel="noopener noreferrer" class="contact-block-item">
+              <span class="cb-label">LINKEDIN</span>
+              <span class="cb-val">linkedin.com/in/sneha-sudha-behera</span>
+              <span class="cb-arrow">→</span>
+            </a>
+
+            <a href="https://github.com/Sneha1623" target="_blank" rel="noopener noreferrer" class="contact-block-item">
+              <span class="cb-label">GITHUB</span>
+              <span class="cb-val">github.com/Sneha1623</span>
+              <span class="cb-arrow">→</span>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- MINIMAL FOOTER -->
+  <footer class="editorial-footer">
+    <div class="editorial-container footer-content-flex">
+      <div class="f-left">
+        <span class="f-name">SNEHA SUDHA BEHERA</span>
+        <span class="f-sub">AI / ML • IoT • COMPUTER VISION</span>
+      </div>
+      <div class="f-right">
+        <span>© 2026 Sneha Sudha Behera. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- RESUME PREVIEW MODAL -->
+  <div class="resume-modal-backdrop" id="resume-modal" aria-hidden="true">
+    <div class="resume-modal-card">
+      <div class="resume-modal-header">
+        <span class="r-modal-title">SNEHA SUDHA BEHERA — RESUME DOCUMENT</span>
+        <button class="r-modal-close" id="close-modal-x">&times;</button>
+      </div>
+      <div class="resume-modal-body">
+        <div class="resume-sheet">
+          <h1>SNEHA SUDHA BEHERA</h1>
+          <p class="r-sub">B.Tech Computer Science &amp; Engineering | BPUT Rourkela (2023–2027)</p>
+          <p class="r-sub">snehasudha97777@gmail.com | linkedin.com/in/sneha-sudha-behera | github.com/Sneha1623</p>
+          <hr class="r-hr">
+          
+          <div class="r-section">
+            <h3>PROFILE</h3>
+            <p>Computer Science student with hands-on experience in AI/ML, Wi-Fi CSI sensing, IoT hardware (ESP32), computer vision, and relational SQL database systems.</p>
+          </div>
+
+          <div class="r-section">
+            <h3>EXPERIENCE</h3>
+            <p><strong>DRDO PXE (Proof &amp; Experimental Establishment)</strong> — Research Intern (June 2026 – July 2026)</p>
+            <ul>
+              <li>Contactless Wi-Fi CSI sensing using ESP32, ESP-IDF &amp; local SQLite database.</li>
+            </ul>
+            <p><strong>SAIL Rourkela Steel Plant</strong> — Intern (May 2026 – June 2026)</p>
+            <ul>
+              <li>Industrial automation workflows, process control, and plant telemetry tracking.</li>
+            </ul>
+            <p><strong>CTTC Bhubaneswar</strong> — Intern (June 2025 – July 2025)</p>
+            <ul>
+              <li>Face Recognition Attendance System (92% recognition accuracy on test datasets).</li>
+            </ul>
+          </div>
+
+          <div class="r-section">
+            <h3>PROJECTS</h3>
+            <p><strong>EAGLE Δ:</strong> Contactless Wi-Fi CSI Sensing (ESP32, ESP-IDF, Python, SQLite)</p>
+            <p><strong>SouryaNova:</strong> Solar Telemetry &amp; Predictive AI Platform (ESP32, MQTT, Node.js, SQL)</p>
+            <p><strong>MediTech:</strong> Centralized Hospital Resource Tracker (HTML/CSS, JS, Bootstrap, SQL)</p>
+          </div>
+        </div>
+      </div>
+      <div class="resume-modal-footer">
+        <button class="r-btn-print" id="print-resume-action">Print / Save PDF</button>
+        <button class="r-btn-close" id="close-modal-btn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
